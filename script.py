@@ -1,11 +1,8 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-verif = True
-
-while verif:
+while True:
     driver = webdriver.Chrome()
     driver.get(
         "https://player.qualifio.com/20/1C356AA8-C157-45A4-BDCD-11403078D38C/s210/v1.cfm?id=1C356AA8-C157-45A4-BDCD-11403078D38C&pdomain=https://www.nordlittoral.fr&_init_fpic=1"
