@@ -12,7 +12,9 @@ Vous pouvez vérifier ceci via ces commandes :
 `chromium --version`
 > Chromium 120.0.6099.109 built on Debian 11.8, running on Debian 11.8
 
-## Installer ce script sur votre machine
+## Installer ce script sur votre machine via SSH
+* Ouvrez un terminal
+* `ssh root@server_ip` puis entrez votre mot de passe lorsque vous y êtes invité. (remplacez server_ip par l'IP de votre serveur).
 * Vous pouvez cloner ce dépôt via `git clone https://github.com/ZentaAeros/voter_gisele.git`
 * Allez à la racine du projet via `cd voter_gisele`
 * Vous pouvez à présent créer un environnement virtuel via : `python -m venv venv` OU `python3 -m venv env` (selon la version de python installée)
@@ -23,7 +25,7 @@ Vous pouvez vérifier ceci via ces commandes :
 * Ouvrez un terminal
 * `ssh root@server_ip` puis entrez votre mot de passe lorsque vous y êtes invité. (remplacez server_ip par l'IP de votre serveur).
 * Suivre l'étape "Préambule" ET "Installer ce script sur votre machine" si ce n'est pas déjà fait.
-* Ouvrez une nouvelle fenêtre de votre terminal via cette commande : `screen -S voter-gisele`
+* Ouvrez une nouvelle fenêtre de votre terminal via cette commande : `screen -S voter-gisele` afin de laisser le script travailler en arrière-plan.
 * A la racine du dossier "voter_gisele", executez cette commande : `python script.py` OU `python3 script.py`(selon la version de python installée)
 * Une fois le script lancé vous devriez voir en quelques secondes les premiers résultats :
 > Grâce à toi, Gisèle a gagné x votes
